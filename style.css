@@ -1,14 +1,46 @@
 @charset "UTF-8"
 
-*{
+@import url('https://fonts.googleapis.com/css2? family= Saira+Condensed:wght@400;600;800 & display=swap');
+
+
+
+* {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --var(cor01): #A5243D;
+    --cor01: #D33656;
+    --cor02: #B3A394;
+    --cor03: #00635D;
+    --cor04: #7DE2D1;
+    --cor05: #91F9E5;
+
+    
+
+}
+
+body{
+    margin: 0;
 }
 
 header{
-    background-color: var(cor01);
+    background-image: linear-gradient(to bottom, var(--cor05),var(--cor04)); 
+    
 }
+
+header h1 {
+    font-family: 'Saira Condensed', 'sem serifa';
+    margin: 0;    
+    color: white;
+    padding: 15px;
+}
+
+header h1 a {
+    text-decoration: none;    
+}
+
+header h1 a:hover {
+    color: var(--cor01);
+}
+
