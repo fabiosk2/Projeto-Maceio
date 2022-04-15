@@ -5,3 +5,10 @@
     padding: 0;
 }
 
+:root {
+    --var(cor01): #A5243D;
+}
+
+header{
+    background-color: var(cor01);
+}
