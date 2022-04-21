@@ -153,10 +153,12 @@ article img {
 
 article h1 {
     margin-bottom: 15px;
+    color: #9f2842;
 }
 
 article h2 {
     margin: 15px 0px;
+    color: #9f2842;
 }
 
 article p {
@@ -164,4 +166,15 @@ article p {
     text-indent: 30px;
     line-height: 1.4rem;
     font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+footer{
+    background-color: #478978;
+    text-align: center;
+    font-size: .9rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a
