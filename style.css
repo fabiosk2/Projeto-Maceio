@@ -24,6 +24,8 @@ body{
     background-color: #50a08ce2;
 }
 
+/* Header */
+
 #logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -131,11 +133,35 @@ body{
     }
 
 }
+/* Final Header */
 
-#img-inicio {
-    display: flex;
-    margin: auto;
-    
-    padding: 15px;
-    
+/* inicio main */
+
+main {
+    padding: 20px;
+}
+
+.inicio-main{
+    padding: 15px 50px;
+}
+ 
+article img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.716);
+}
+
+article h1 {
+    margin-bottom: 15px;
+}
+
+article h2 {
+    margin: 15px 0px;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4rem;
+    font-size: 1rem;
 }
