@@ -21,7 +21,8 @@
 
 body{
     margin: 0;
-    background-color: #50a08ce2;
+    background-color: #478978;
+    
 }
 
 /* Header */
@@ -138,7 +139,13 @@ body{
 /* inicio main-index */
 
 main {
-    padding: 20px;
+    padding: 25px;
+    max-width: 1000px;
+    min-width: 280px;
+    margin: auto;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .inicio-main{
@@ -172,7 +179,7 @@ article p {
 }
 
 footer{
-    background-color: #478978;
+    background-color: #366c5e;
     text-align: center;
     font-size: .7rem;
     color: #ffffff;
@@ -198,12 +205,12 @@ footer a:hover {
 /* inicio main-estrutura */
 
 #box-lista {
-    background-color: #478978;
-    max-width: 600px;
+    background-color: #417f6f86;
+    max-width: 600px;    
     padding: 20px 0px 20px 40px;
     line-height: 30px;
     border-radius: 5px;
-    margin: 30px 20px 0px 20px;
+    margin: 40px 30px 0px 30px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.716);
 }
@@ -220,7 +227,7 @@ footer a:hover {
 }
 
 #box-servicos {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* final main-estrutura */
