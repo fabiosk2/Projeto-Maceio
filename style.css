@@ -31,7 +31,7 @@ body{
     font-weight: bold;
     font-family: 'Courgette', cursive;
     text-decoration: none;
-    color: #171738;
+    color: #9f2842;
 }
 
 #header {
@@ -46,7 +46,7 @@ body{
 
 #header li a {
     text-decoration: none;
-    color: #171738;
+    color: #9f2842;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -135,7 +135,7 @@ body{
 }
 /* Final Header */
 
-/* inicio main */
+/* inicio main-index */
 
 main {
     padding: 20px;
@@ -154,11 +154,13 @@ article img {
 article h1 {
     margin-bottom: 15px;
     color: #9f2842;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 article h2 {
     margin: 15px 0px;
     color: #9f2842;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 article p {
@@ -172,9 +174,52 @@ article p {
 footer{
     background-color: #478978;
     text-align: center;
-    font-size: .9rem;
+    font-size: .7rem;
     color: #ffffff;
     text-decoration: none;
+    padding: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-footer a
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a:hover {
+    color: #9f2842;
+    text-decoration: underline;
+}
+
+/* final main-index */
+
+/* inicio main-estrutura */
+
+#box-lista {
+    background-color: #478978;
+    max-width: 600px;
+    padding: 20px 0px 20px 40px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin: 30px 20px 0px 20px;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: #9f2842;
+    font-size: 20px;    
+}
+
+#lista li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#box-servicos {
+    margin-top: 60px;
+}
+
+/* final main-estrutura */
+
