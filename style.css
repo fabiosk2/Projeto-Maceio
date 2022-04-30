@@ -134,7 +134,7 @@ body{
     }
 
 }
-/* Final Header */
+/* Final Header */  
 
 /* inicio main-index */
 
@@ -226,8 +226,17 @@ footer a:hover {
     color: white;
 }
 
+
+
 #box-servicos {
     margin-top: 50px;
+    padding: 10px;
+}
+
+#citytour {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
 }
 
 #box-city {
@@ -245,6 +254,11 @@ footer a:hover {
     padding: 6px;
     margin: 10px;
     border-radius: 5px;
+}
+
+#box-city #barra{
+        max-width: 270px;
+        display: inline;
 }
 
 /* final main-estrutura */
