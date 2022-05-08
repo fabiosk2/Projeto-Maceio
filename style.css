@@ -15,14 +15,14 @@
     --cor02: #478978;
     --cor03: #E6AF2E;
     --cor04: #171738;
-    --cor05: #B9314F;   
+    --cor05: #B9314F;
 
 }
 
-body{
+body {
     margin: 0;
     background-color: #478978;
-    
+
 }
 
 /* Header */
@@ -73,7 +73,7 @@ body{
 }
 
 @media (max-width: 600px) {
- 
+
     #menu {
         /* display: none; */
         display: block;
@@ -89,16 +89,19 @@ body{
         overflow-y: hidden;
 
     }
+
     #nav.active #menu {
         height: calc(100vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
+
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0,  .05);
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
+
     #btn-mobile {
         display: flex;
         padding: .5rem 1rem;
@@ -108,11 +111,14 @@ body{
         cursor: pointer;
         gap: .5rem;
     }
+
     #hamburger {
         width: 20px;
         border-top: 2px solid;
     }
-    #hamburger::after, #hamburger::before {
+
+    #hamburger::after,
+    #hamburger::before {
         content: '';
         width: 20px;
         display: block;
@@ -122,19 +128,23 @@ body{
         transition: .3s;
         position: relative;
     }
+
     #nav.active #hamburger {
         border-top-color: transparent;
     }
+
     #nav.active #hamburger::before {
         transform: rotate(135deg);
     }
+
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
     }
 
 }
-/* Final Header */  
+
+/* Final Header */
 
 /* inicio main-index */
 
@@ -148,10 +158,10 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-.inicio-main{
+.inicio-main {
     padding: 15px 50px;
 }
- 
+
 article img {
     width: 100%;
     border-radius: 5px;
@@ -178,7 +188,7 @@ article p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-footer{
+footer {
     background-color: #366c5e;
     text-align: center;
     font-size: .7rem;
@@ -206,7 +216,7 @@ footer a:hover {
 
 #box-lista {
     background-color: #417f6f86;
-    max-width: 600px;    
+    max-width: 600px;
     padding: 20px 0px 20px 40px;
     line-height: 30px;
     border-radius: 5px;
@@ -218,7 +228,7 @@ footer a:hover {
 #lista li a {
     text-decoration: none;
     color: #9f2842;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 #lista li a:hover {
@@ -240,26 +250,43 @@ footer a:hover {
 }
 
 #box-city {
-    max-width: 950px;
+    max-width: 1000px;
+    width: 100%;
     display: flex;
     align-content: center;
-    justify-content: center;
-    margin-left: 25px;
-    margin-top: px;  
+    justify-content: space-evenly;
+    margin: 15px 0px;
+
 }
 
 #box-city img {
-    max-width: 270px;
+    max-width: 280px;
+    width: 100%;
+    height: auto;
     display: flex;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
-#box-city #barra{
-        max-width: 270px;
-        display: inline;
+#barra {
+    margin: 5px;
+
 }
+
+#massa {
+    margin: 5px;
+}
+
+#saco {
+    margin: 5px;
+}
+
+figure figcaption {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
 
 /* final main-estrutura */
-
