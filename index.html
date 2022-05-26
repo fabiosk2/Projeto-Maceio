@@ -78,43 +78,48 @@
                 <table class="tabela">
                     <tr>
                         <td class="tituloTab">Passeios Turisticos</td>
+                        <td>Quantidades</td>
                         <td class="tituloTab">Valores</td>
                     </tr>
 
                     <tr>
                         <td><input type="checkbox" name="citytour" id="vndcity"> Passeio citytour</td>
-                        <td>$:100,00</td>
+                        <td><input type="number" name="quantidade" id="qtdcity"></td>
+                        <td><input type="number" name="valorcity" id="valorcity" ></td>
                     </tr>
 
                     <tr>
                         <td><input type="checkbox" name="9ilhas" id="vndilhas"> Passeio às 9 Ilhas</td>
+                        <td></td>
                         <td>$:100,00</td>
                     </tr>
 
                     <tr>
                         <td><input type="checkbox" name="centro" id="vndcentro"> Passeio Centro Historico</td>
+                        <td></td>
                         <td>$:100,00</td>
                     </tr>
 
                     <tr>
                         <td><input type="checkbox" name="gastro" id="vndgastro"> Passeio Centro Gastronômico Massagueira
                         </td>
+                        <td></td>
                         <td>$:100,00</td>
                     </tr>
 
                     <tr>
                         <td><input type="checkbox" name="praias" id="vndpraias"> Passeio Praias e Banhos</td>
-                        <td>$:100,00</td>
-                    </tr>
-                    
-                    <tr id="butaocomprar">
                         <td></td>
-                        <td><a href="#"><button>COMPRAR</button></a></td>
-                    </tr>
-
+                        <td>$:100,00</td>
+                    </tr>             
+                        
                 </table>
             </form>
-
+            
+            <div class="comprar">
+                <a href="#"><button id="butaocomprar" onclick="vendas()">COMPRAR</button></a></td>
+                    
+            </div>
 
             <div class="resultado"></div>
 

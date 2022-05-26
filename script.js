@@ -10,3 +10,16 @@ btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
 
+
+
+function vendas() {
+    const vndcity = document.getElementById('vndcity')
+    const valorcity = document.getElementById('valorcity')
+    const quantidade = document.getElementById('qtdcity')
+
+    
+
+    if (vndcity = addEventListener('click'))
+       
+
+}

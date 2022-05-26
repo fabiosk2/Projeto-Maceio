@@ -190,7 +190,7 @@ article p {
 
 .vendas {
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -207,25 +207,40 @@ article p {
 }
 
 .pacotes {
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
     padding: 20px 40px 20px 60px;
     
 }
 .tabela {
-    height: 300px;
+    height: 370px;
 }
 
 .pacotes table tr{
-    margin: 15px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
+
+
 
 .tabela .tituloTab {
     padding: 0px 0px 10px 10px;
+}
+
+#butaocomprar {
+    padding: 15px 20px;
+    background: #366c5e;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: white;
+    font: bold;
+}
+.comprar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px 30px 0px;
 }
 
 
